@@ -6,7 +6,7 @@
 		{"include": "#strings"},
 		{"include": "#comment"},
     {
-      "name": "constant.numeric.crumb",
+      "name": "constant.numeric.arb",
       "match": "\\b[[:digit:]]+(\\.[[:digit:]]*)?"
     }
 	],
