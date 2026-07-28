@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Crumb",
+	"name": "Arbplus",
 	"patterns": [
 		{"include": "#keywords"},
 		{"include": "#strings"},
@@ -13,34 +13,34 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-        "name": "keyword.control.crumb",
+        "name": "keyword.control.arb",
         "match": "<\\-"
       },
       {
-        "name": "keyword.control.crumb",
+        "name": "keyword.control.arb",
         "match": "\\->"
       },
       {
-        "name": "keyword.control.crumb",
+        "name": "keyword.control.arb",
         "match": "="
       }]
     },
 		"strings": {
-			"name": "string.quoted.double.crumb",
+			"name": "string.quoted.double.arb",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.crumb",
+					"name": "constant.character.escape.arb",
 					"match": "\\\\(x[A-Fa-f0-9][A-Fa-f0-9]?|.)"
 				}
 			]
 		},
     "comment": {
-      "name": "comment.line.crumb",
+      "name": "comment.line.arb",
       "begin": "//",
-      "end": "$"
+      "end": "\n"
     }
 	},
-	"scopeName": "source.crumb"
+	"scopeName": "source.arbplus"
 }
