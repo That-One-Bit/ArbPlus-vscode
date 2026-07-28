@@ -1,8 +1,8 @@
 {
-  "publisher": "liamilan",
-  "name": "crumb",
-  "displayName": "Crumb",
-  "description": "Syntax highlighting for the Crumb programming language.",
+  "publisher": "ThatOneBit",
+  "name": "ArbPlus",
+  "displayName": "ArbPlus",
+  "description": "Syntax highlighting for the ArbPlus programming language, based off of liamilan's crumb extension.",
   "version": "0.0.1",
   "icon": "assets/icon.png",
   "engines": {
@@ -13,13 +13,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/liam-ilan/crumb-vscode.git"
+    "url": "git://github.com/That-One-Bit/ArbPlus-vscode.git"
   },
   "contributes": {
     "languages": [{
-      "id": "crumb",
-      "aliases": ["Crumb", "crumb"],
-      "extensions": [".crumb"],
+      "id": "arbplus",
+      "aliases": ["Arbplus", "arbplus", "ArbPlus"],
+      "extensions": [".arbplus"],
       "configuration": "./language-configuration.json",
       "icon": {
         "light": "./assets/language-icon.png",
@@ -27,9 +27,9 @@
       }
     }],
     "grammars": [{
-      "language": "crumb",
-      "scopeName": "source.crumb",
-      "path": "./syntaxes/crumb.tmLanguage.json"
+      "language": "arbplus",
+      "scopeName": "source.arbplus",
+      "path": "./syntaxes/arbplus.tmLanguage.json"
     }]
   }
 }
